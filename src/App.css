@@ -1,0 +1,12 @@
+.book-card {
+  border: 2px solid transparent;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.book-card:hover {
+  border-color: red;
+}
+
+.book-card.selected {
+  border-color: red;
+}
